@@ -1,0 +1,61 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 150%; /* Full width */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+	margin: 0px;
+	background-image: url("purp.gif");
+}
+
+h1 {
+    text-align: center;
+}
+
+.boxed {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 350px;
+    margin-left: 350px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.headerbox {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.scrollboxed {
+    height: 200px;
+    width: 740px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+    margin-left: 350px;
+    background-color: grey;
+    border: 1px solid black;
+    overflow:auto;
+}
+
+p { 
+	text-align: center;
+	margin: 50px 115px 50px;
+}
+
